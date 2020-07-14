@@ -93,7 +93,7 @@ form {
     height: 45px;
 }
 
-.input-div>div>p {
+.input-div>div>label {
     position: absolute;
     left: 10px;
     top: 50%;
@@ -127,7 +127,7 @@ form {
     width: 50%;
 }
 
-.input-div.focus>div>p {
+.input-div.focus>div>label {
     top: -5px;
     font-size: 15px;
 }
