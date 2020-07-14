@@ -48,6 +48,11 @@ body {
     width: 100px;
 }
 
+.logo1 {
+    height: 50%;
+    width: 50%;
+}
+
 form {
     width: 360px;
 }
