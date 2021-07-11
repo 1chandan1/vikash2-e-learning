@@ -163,7 +163,8 @@ form {
 a {
     display: block;
     text-decoration: none;
-    color: rgb(96, 108, 114);;
+    color: rgb(96, 108, 114);
+    ;
     font-size: 0.9rem;
     transition: .3s;
 }
@@ -173,27 +174,16 @@ a {
 }
 
 #pandas {
-    margin: 20px 50px 60px 50px;
+    margin: 20px 10px 30px 40%;
 }
 
 .panda1 {
     border-radius: 32px;
     width: 35%;
-    float: left;
-}
-
-.panda2 {
-    border-radius: 32px;
-    width: 35%;
-    float: right;
+    float: none;
 }
 
 .panda1:hover {
-    background-color: #db0000e7;
-    color: rgb(255, 255, 255);
-}
-
-.panda2:hover {
     background-color: #db0000e7;
     color: rgb(255, 255, 255);
 }
