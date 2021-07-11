@@ -4,7 +4,6 @@
 <!--some encrypt id,password Mirrored from odishavikash.com/Vidya/  -->
 <!-- i have change my school website login page .this is only for my schoolmate -->
 
-
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -30,38 +29,18 @@
         </div>
         <div class="login-content">
 
-           <form method="post" action="http://odishavikash.com/Vidya/" id="ctl01">
+            <form method="post" action="http://vikashvidya.com/" id="form1">
                 <div class="aspNetHidden">
-                    <input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
-                    <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
-                    <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
-                    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="0tKviLpkkhs/Yi2M9ebRAxIDWK7vmgvsWE7Jb8JYNDicHzvBdeabKa+G8Mk4aaIlfkYT5lwzwucD4AEA2tKH7DxUFGQ3cwi403rHmjSVDkE=" />
+                    <input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+                    <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+                    <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+                    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="7ysg47gAoRbQeS34UA3t+O156K+yFx+gMjQvGG11quBPoguXDGfuPf9T9OW+8bB8mq1BZSCo7HSchNI6eLAAw/QbPwoHxsRpzawTjsOHy3Y=">
                 </div>
-
-                <script type="text/javascript">
-            //<![CDATA[
-            var theForm = document.forms['ctl01'];
-            if (!theForm) {
-                theForm = document.ctl01;
-            }
-
-            function __doPostBack(eventTarget, eventArgument) {
-                if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
-                    theForm.__EVENTTARGET.value = eventTarget;
-                    theForm.__EVENTARGUMENT.value = eventArgument;
-                    theForm.submit();
-                }
-            }
-            //]]>
-        </script>
 
                 <div class="aspNetHidden">
 
-                    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A09D7129" />
-                    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="Kfa2upRvvn+pUq32fCvNAL5mjjZnrPGRLHmY+pBWWY4a1CjpOnPGpDanpU+ZttsspgEF8bQWqlSFnmuw1rzPwue4K+PPI0VsagvPHCZKdSEioeEvw0JaFSoIQddCB54N+EOfx2J4/l8Nk9TBroGueq8IGDlIqvAUBcfU4Ot9re7IDV0gnUYnfY+F4muuJEY9UXvquGn8lJEb6RDHFxSvBVcJJICTEDuPX1K2+BBAV7I="
-                    />
+                    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="WOIl+3ggwxGPL39K+qAi6yi6I5F5qK11r2dB0g1k3/f4lgGtIKdAPDu/GVQgAFJ3i4VaMHyG7Gp5+DwA6Tnq1cvxgMJD+cf1mlYD4qtBwCNVILpEmF1yez9rZGb83ZLdK/5gGmDsytyPBvdE+qpmCeHoqquhBhQB2gqCJgiCmho=">
                 </div>
-
 
                 <img class="logo" src="img/logo.png" alt="logo">
                 <br>
@@ -71,7 +50,6 @@
 
                 <div id="pandas">
                     <a href="/index.html" class="panda1">student</a>
-                    <a href="/teacher.html" class="panda2">teacher</a>
                 </div>
 
                 <div id="ctl13">
@@ -82,7 +60,8 @@
                         <div class="div">
                             <label for="c">Student id</label>
 
-                            <input id="c" name="tb_studentuserid" type="text" class="input" required />
+                            <input id="c" name="tb_username" type="text" class="input" required />
+
                         </div>
                     </div>
                     <div class="input-div pass">
@@ -91,12 +70,15 @@
                         </div>
                         <div class="div">
                             <label for="d">Password</label>
-                            <input id="d" name="tb_studentpass" type="password" class="input" required />
+                            <input id="d" name="tb_password" type="password" class="input" required />
                         </div>
                     </div>
-                    <a class="btn-link" href="http://www.odishavikash.com/elearning/StudentForgotPass.aspx">Forgot
-                            Passowrd?</a>
-                    <input type="submit" name="btn_studentsubmit" class="btn" value="SUBMIT" />
+
+                    <input type="submit" name="btn_login" class="btn" value="SUBMIT">
+
+
+
+
                 </div>
             </form>
         </div>
